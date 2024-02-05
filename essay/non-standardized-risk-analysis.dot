@@ -1,0 +1,32 @@
+digraph { 
+  institution1 [ label = "Financial institute 1" ];
+  institution2 [ label = "Financial institute 2" ];
+  institution3 [ label = "Financial institute 3" ];
+  institution4 [ label = "Financial institute 4" ];
+  analysis1 [ label = "Risk analysis method 1" ];
+  analysis2 [ label = "Risk analysis method 2" ];
+  analysis3 [ label = "Risk analysis method 3" ];
+  analysis4 [ label = "Risk analysis method 4" ];
+
+  rankdir=LR
+
+  institution1 -> analysis1;
+  institution2 -> analysis1;
+  institution3 -> analysis1;
+  institution4 -> analysis1;
+
+  institution1 -> analysis2;
+  institution2 -> analysis2;
+  institution3 -> analysis2;
+  institution4 -> analysis2;
+
+  institution1 -> analysis3;
+  institution2 -> analysis3;
+  institution3 -> analysis3;
+  institution4 -> analysis3;
+
+  institution1 -> analysis4;
+  institution2 -> analysis4;
+  institution3 -> analysis4;
+  institution4 -> analysis4;
+} 
